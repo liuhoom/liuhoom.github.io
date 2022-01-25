@@ -97,7 +97,7 @@ for n_min in minute:
 		html_file = "./html/%s-%s.html" % (name, n_min)
 
 		makeCsv(makeJson(res_list), csv_file)
-		cmd = "csvtotable -nh -o %s %s" % (csv_file, html_file)
+		cmd = "/opt/pb/py3/bin/csvtotable -nh -o %s %s" % (csv_file, html_file)
 		print(cmd.split())
 		subprocess.Popen(cmd.split())
 
