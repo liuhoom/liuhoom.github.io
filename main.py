@@ -79,6 +79,7 @@ def makeCsv(st_dict, csv_file):
 	ce = pd.read_csv("./tmp.csv", index_col = False, names=['date', 'time', 'p', 'chg', 'percent'], skiprows=16)
 	data = ce.sort_values(by='date', ascending=False)
 	data.to_csv(csv_file, mode='w', index=False, header=False)
+	os.remove("./tmp.csv")
 
 for n_min in minute:
 	for name in st:
