@@ -10,7 +10,7 @@ import pandas as pd
 from csvtotable import convert
 
 minute = ['30m', '60m']
-st = ["SH000001"]
+st = ["SH000001", "SZ399001", "SH000016", "SH000905"]
 
 headers = {
 	"cookie": "Hm_lvt_1db88642e346389874251b5a1eded6e3=1641263131; device_id=29d774b80d9a46b821260a854f02d63d; s=cm176xbuuh; xq_is_login=1; acw_tc=3ccdc14b16417787339238821e5ef130d8f01529d9dd1615e65684695ede83; xqat=e7e953840874f253be2ab10f1add80915f6571ea; xq_a_token=e7e953840874f253be2ab10f1add80915f6571ea; xq_r_token=9f29afbe70938db9b29cfb87f985bfe5419d6390; xq_id_token=eyJ0eXAiOiJKV1QiLCJhbGcmsmc_platform_user_info_updateiOiJSUzI1NiJ9.eyJ1aWQiOjYxNTg4NTA2MDQsImlzcyI6InVjIiwiZXhwIjoxNjQ0MzcwNzMzLCJjdG0iOjE2NDE3Nzg3MzM5NDUsImNpZCI6ImQ5ZDBuNEFadXAifQ.AvkYbhKRlacAgxQdixgxG37aXPhAGqzoZVBNvRgez7PaN9_Ftt3pPH-84_vJWpSBFNa5yCxheT2toQ8DJiENY9n8bhrWowQn7ZG_AZD8ZrTIBfifSIooTAoI_6FvQJ9UulWjG3WVaoQ490gFLBzd3Hhdp8taFiowIhmf1VTeZHpshNxmFgyliEOV8eNz0AjVVXd2BNTuobTcfuwwKS39A8zqqYb0gGaklkXIUPC42c2Ukvmeiue21VnvbPgPWU1MLnpkFaURcYEZ-pA7S78x5V-lTXvLTXm96ad8C56GnZqwWQRl73nCM-OW_p5xPFk09QabKLVJ6DXJnlBg3ekk6A; is_overseas=0; u=881641778736136; cookiesu=881641778736136; Hm_lpvt_1db88642e346389874251b5a1eded6e3=1641778736",
