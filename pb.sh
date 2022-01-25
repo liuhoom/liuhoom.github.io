@@ -5,6 +5,6 @@ cd ${apath}
 
 /opt/pb/py3/bin/python main.py
 
-git add .
+git add . -A
 git commit -m `date +%s`
 git push origin master
