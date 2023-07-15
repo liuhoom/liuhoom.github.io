@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <!-- <title>liuhoom's web</title> -->
-  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
@@ -16,17 +18,21 @@
       // name: 'liuhoom',
       namelink: '/',
       repo: 'https://github.com/liuhoom/',
-      // loadSidebar: true,
-      hideSidebar: true,
+      loadSidebar: true,
+      // hideSidebar: true,
       maxLevel: '2',
-      // coverpage: true,
+      coverpage: true,
       auto2top: true,
-
+      relativePath: true,
       subMaxLevel: 2,
       // loadNavbar: true,
       ga: 'G-7C9N3LDDJP',
+      // logo: '/favicon.ico'
       search: {
         namespace: 'web',
+      },
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'
       }
     }
   </script>
