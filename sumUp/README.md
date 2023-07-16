@@ -16,3 +16,19 @@
 
 > 资金管理层
 - <font color="#ff0000" size=4><b>杠杆太大，满仓满融一只个股，导致亏损翻倍</b></font>
+
+</br>
+</br>
+</br>
+
+> 大跌详情
+
+<img decoding="async" src="../images/detail-202101.jpg" width="23%">
+<img decoding="async" src="../images/detail-202107.jpg" width="23%">
+<img decoding="async" src="../images/detail-202201.jpg" width="23%">
+<img decoding="async" src="../images/detail-202209.jpg" width="23%">
+
+
+</br>
+</br>
+</br>

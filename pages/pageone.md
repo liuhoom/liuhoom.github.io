@@ -7,6 +7,14 @@
 <!-- ![](images/coverpage.png) -->
 
 
+#### 什么是市场
+    市场是情绪的集合，是人之间的决斗；
+
+#### 指标
+    只需要注意情绪；
+    情绪只有两个  价格K线、成交量
+
+
 <iframe frameborder="0" width="95%" height="630" scrolling="no" src="https://rili.jin10.com/"></iframe>
 
 
