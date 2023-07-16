@@ -17,17 +17,20 @@
     window.$docsify = {
       name: 'liuhoom',
       namelink: '/',
-      repo: 'https://github.com/liuhoom/',
+      // repo: 'https://github.com/liuhoom/',
       loadSidebar: true,
       // hideSidebar: true,
       maxLevel: '2',
 
-      // onlyCover: true,
+      onlyCover: true,
       coverpage: true,
 
       auto2top: true,
       relativePath: true,
       subMaxLevel: 2,
+      requestHeaders: {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+      }
       
       // loadNavbar: true,
       // logo: './images/coverpage.png'
